@@ -36,13 +36,16 @@ def fdate(iso):
 
 
 def prices():
+    best = {}
     for u in PRICE_URLS:
         try:
             with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "weekly-summary"}), timeout=20) as r:
-                return json.load(r).get("quotes", {})
+                d = json.load(r)
+            if str(d.get("fetchedAt", "")) > str(best.get("fetchedAt", "")):
+                best = d
         except Exception:
             continue
-    return {}
+    return best.get("quotes", {})
 
 
 def main(folder):
