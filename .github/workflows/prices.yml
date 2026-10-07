@@ -1,0 +1,36 @@
+name: Update prices
+
+on:
+  schedule:
+    - cron: "17 6-20/2 * * 1-5"   # every 2 hours on weekdays (UTC), roughly 08:17-22:17 Madrid
+    - cron: "17 10 * * 0,6"       # once a day at weekends (crypto)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch prices
+        run: python scripts/fetch_prices.py
+      - name: Commit if changed
+        run: |
+          git config user.name "price-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.json prices.js
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git commit -m "Update prices"
+          git push
+      - name: Refresh CDN copy
+        run: curl -sS -m 30 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/prices.js" || true

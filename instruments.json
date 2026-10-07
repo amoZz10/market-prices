@@ -1,0 +1,10 @@
+{
+  "_note": "Public price list. Instruments only (ISIN or crypto symbol) - no quantities or positions. Add one line per instrument to get its EUR price.",
+  "securities": [
+    "IE00BFMXXD54", "IE00B3XXRP09", "IE00B5BMR087", "IE00B4L5Y983", "IE00BK5BQT80",
+    "IE00B3RBWM25", "IE00BKM4GZ66", "IE00B3WJKG14",
+    "ES0144580Y14", "ES0113900J37", "ES0148396007", "NL0010273215",
+    "US0378331005", "US5949181045"
+  ],
+  "crypto": ["BTC", "ETH", "SOL", "ADA", "XRP", "LTC", "LINK", "DOGE"]
+}
