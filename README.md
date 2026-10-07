@@ -10,6 +10,6 @@ Public EUR prices for a short list of ETFs, shares and crypto, refreshed by a Gi
 - Sources: onvista (securities, Xetra EUR quote preferred) and Coinbase spot prices (crypto).
   A failed lookup keeps the last good price; moves above 25% are rejected.
 
-Publishing needs either the `NPM_TOKEN` repository secret or npm trusted publishing for this workflow.
+Publishing uses npm trusted publishing for `.github/workflows/prices.yml` (configured on npmjs.com, no token).
 
 Run it by hand from the Actions tab → "Update prices" → Run workflow.

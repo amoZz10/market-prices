@@ -43,9 +43,9 @@ jobs:
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Publish to npm (served to the dashboard by jsDelivr and unpkg)
+        # Uses npm trusted publishing (OIDC, no token). Token publishes from CI are only staged for
+        # manual approval on npmjs.com, which would stop the automatic updates.
         if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm install -g npm@latest --silent
           V="1.$(date -u +%Y%m%d).$((10#$(date -u +%H%M)))"
