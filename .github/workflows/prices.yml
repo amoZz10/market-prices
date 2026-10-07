@@ -50,7 +50,17 @@ jobs:
           npm install -g npm@latest --silent
           V="1.$(date -u +%Y%m%d).$((10#$(date -u +%H%M)))"
           npm version "$V" --no-git-tag-version --allow-same-version
-          npm publish --access public --provenance
+          set +e
+          npm publish --access public --provenance > publish.log 2>&1
+          rc=$?
+          set -e
+          cat publish.log
+          # Keep a short public status note (no secrets) so problems can be diagnosed later.
+          { echo "run: $(date -u +%FT%TZ)"; echo "version: $V"; echo "exit: $rc"; tail -n 15 publish.log; } > status.txt
+          git checkout -- package.json
+          git add status.txt
+          git commit -q -m "Publish status" && git push -q || true
+          exit $rc
 
       - name: Refresh CDN copies
         if: success()
