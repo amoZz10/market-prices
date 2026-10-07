@@ -2,12 +2,13 @@ name: Update prices
 
 on:
   schedule:
-    - cron: "17 6-20/2 * * 1-5"   # every 2 hours on weekdays (UTC), roughly 08:17-22:17 Madrid
+    - cron: "17 6-18/4 * * 1-5"   # weekdays 06:17, 10:17, 14:17, 18:17 UTC (08:17-20:17 Madrid)
     - cron: "17 10 * * 0,6"       # once a day at weekends (crypto)
   workflow_dispatch:
 
 permissions:
   contents: write
+  id-token: write   # lets npm trusted publishing work without a token
 
 concurrency:
   group: prices
@@ -22,15 +23,38 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+
       - name: Fetch prices
         run: python scripts/fetch_prices.py
+
       - name: Commit if changed
+        id: commit
         run: |
           git config user.name "price-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add prices.json prices.js
-          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -m "Update prices"
           git push
-      - name: Refresh CDN copy
-        run: curl -sS -m 30 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/prices.js" || true
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to npm (served to the dashboard by jsDelivr and unpkg)
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm install -g npm@latest --silent
+          V="1.$(date -u +%Y%m%d).$((10#$(date -u +%H%M)))"
+          npm version "$V" --no-git-tag-version --allow-same-version
+          npm publish --access public --provenance
+
+      - name: Refresh CDN copies
+        if: success()
+        run: |
+          for u in "npm/amozz10-market-prices@1/prices.js" "npm/amozz10-market-prices@latest/prices.js" "npm/amozz10-market-prices/prices.js"; do
+            curl -sS -m 30 "https://purge.jsdelivr.net/$u" > /dev/null || true
+          done

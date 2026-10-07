@@ -1,0 +1,11 @@
+{
+  "name": "amozz10-market-prices",
+  "version": "1.0.0",
+  "description": "Public EUR prices for a short list of ETFs, shares and crypto (no positions). Refreshed by GitHub Actions.",
+  "files": ["prices.js", "prices.json"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoZz10/market-prices.git"
+  }
+}
