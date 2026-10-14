@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-14T15:52:36+00:00",
+ "fetchedAt": "2026-10-14T19:36:14+00:00",
  "quotes": {
   "ES0113900J37": {
    "price": 12.128,
@@ -26,57 +26,57 @@
    "name": "Inditex"
   },
   "IE00B3RBWM25": {
-   "price": 166.6,
+   "price": 165.94,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:55.180+00:00",
+   "at": "2026-10-14T17:16:01.510+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Dis."
   },
   "IE00B3WJKG14": {
-   "price": 47.81,
+   "price": 47.465,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:36:01.510+00:00",
+   "at": "2026-10-14T16:31:59.450+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD Acc."
   },
   "IE00B3XXRP09": {
-   "price": 131.935,
+   "price": 131.555,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:55.650+00:00",
+   "at": "2026-10-14T16:17:38.930+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard S&P 500 UCITS ETF USD Dis."
   },
   "IE00B4L5Y983": {
-   "price": 131.795,
+   "price": 131.05,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:56.140+00:00",
+   "at": "2026-10-14T17:30:33.100+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core MSCI World UCITS ETF USD Acc."
   },
   "IE00B5BMR087": {
-   "price": 751.5,
+   "price": 748.0,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:36:07.080+00:00",
+   "at": "2026-10-14T17:21:53.240+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core S&P 500 UCITS ETF USD Acc."
   },
   "IE00BFMXXD54": {
-   "price": 134.735,
+   "price": 134.5,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:56.840+00:00",
+   "at": "2026-10-14T15:45:55.130+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard S&P 500 UCITS ETF USD Acc."
   },
   "IE00BK5BQT80": {
-   "price": 172.48,
+   "price": 171.76,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:36:09.540+00:00",
+   "at": "2026-10-14T17:17:47.250+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Acc."
@@ -90,90 +90,90 @@
    "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF USD Acc."
   },
   "LU0411078552": {
-   "price": 329.25,
+   "price": 328.55,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:36:10.940+00:00",
+   "at": "2026-10-14T15:40:17.810+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Xtrackers S&P 500 2x Leveraged Daily Swap UCITS ETF 1C USD Acc."
   },
   "NL0010273215": {
-   "price": 1528.4,
+   "price": 1524.8,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:57.170+00:00",
+   "at": "2026-10-14T16:12:11.860+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "ASML Holding"
   },
   "US0378331005": {
-   "price": 311.35,
+   "price": 309.7,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:31.460+00:00",
+   "at": "2026-10-14T16:44:08.910+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Apple"
   },
   "US5949181045": {
-   "price": 483.15,
+   "price": 482.1,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:35:56.950+00:00",
+   "at": "2026-10-14T16:35:00.610+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.20466,
+   "price": 0.20469,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:36+00:00",
+   "at": "2026-10-14T19:36:13+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 73400.85,
+   "price": 73291.085,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:35+00:00",
+   "at": "2026-10-14T19:36:13+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.073965,
+   "price": 0.073525,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:36+00:00",
+   "at": "2026-10-14T19:36:14+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 2187.495,
+   "price": 2178.675,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:35+00:00",
+   "at": "2026-10-14T19:36:13+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 11.18961,
+   "price": 11.16127,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:36+00:00",
+   "at": "2026-10-14T19:36:14+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 53.1505,
+   "price": 53.4325,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:36+00:00",
+   "at": "2026-10-14T19:36:14+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 93.565,
+   "price": 93.53,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:35+00:00",
+   "at": "2026-10-14T19:36:13+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 1.1959,
+   "price": 1.19055,
    "date": "2026-10-14",
-   "at": "2026-10-14T15:52:36+00:00",
+   "at": "2026-10-14T19:36:13+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
