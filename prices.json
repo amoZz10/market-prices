@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-11-02T21:52:59+00:00",
+ "fetchedAt": "2026-11-02T23:39:22+00:00",
  "quotes": {
   "ES0113900J37": {
    "price": 10.366,
    "date": "2026-11-02",
-   "at": "2026-11-02T20:24:17.510+00:00",
+   "at": "2026-11-02T20:55:41.620+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Santander"
@@ -106,9 +106,9 @@
    "name": "ASML Holding"
   },
   "US0378331005": {
-   "price": 300.7,
+   "price": 302.4,
    "date": "2026-11-02",
-   "at": "2026-11-02T19:29:57.500+00:00",
+   "at": "2026-11-02T20:58:21.070+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Apple"
@@ -122,58 +122,58 @@
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.169165,
+   "price": 0.168285,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 68535.015,
+   "price": 68559.74,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.066215,
+   "price": 0.0662,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 2012.755,
+   "price": 2011.035,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 9.91852,
+   "price": 9.932185,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 48.2775,
+   "price": 47.933,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 82.145,
+   "price": 82.06,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 1.1171,
+   "price": 1.1154,
    "date": "2026-11-02",
-   "at": "2026-11-02T21:52:59+00:00",
+   "at": "2026-11-02T23:39:22+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
