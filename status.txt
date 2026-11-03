@@ -1,18 +1,18 @@
-run: 2026-11-02T23:39:41Z
-version: 1.20261102.2339
-exit: 0
+run: 2026-11-03T16:26:30Z
+version: 1.20261103.1624
+exit: 1
 npm notice name: amozz10-market-prices
-npm notice version: 1.20261102.2339
-npm notice filename: amozz10-market-prices-1.20261102.2339.tgz
+npm notice version: 1.20261103.1624
+npm notice filename: amozz10-market-prices-1.20261103.1624.tgz
 npm notice package size: 2.1 kB
 npm notice unpacked size: 9.9 kB
-npm notice shasum: 3c9b5b870becc74aaabe63b08cf0e62997485c0a
-npm notice integrity: sha512-fnfHOB3YuSKio[...]S/7L9ukAMF+ww==
+npm notice shasum: 1aefc73f777c259c90cd5509c524cf40590c4557
+npm notice integrity: sha512-dKyiMBKW8ZB0I[...]iF13caTv0rtyQ==
 npm notice total files: 4
 npm notice
 npm notice npm tokens that bypass 2FA are being restricted for account changes and direct publishing. Learn how to prepare: https://gh.io/npm-gat-bypass2fa-deprecation
 npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
-npm notice publish Signed provenance statement with source and build information from GitHub Actions
-npm notice publish Provenance statement published to transparency log: https://search.sigstore.dev/?logIndex=3652723897
-npm notice Your package is being processed and may take a few minutes to become available.
-+ amozz10-market-prices@1.20261102.2339
+npm error code TLOG_CREATE_ENTRY_ERROR
+npm error error creating tlog entry - (409) an equivalent entry already exists in the transparency log with UUID 108e9186e8c5677a663e8ba0517011add39918fd3745e6dbc86c300ebb7ce6d21e8adf009a3e0225
+npm error cause (409) an equivalent entry already exists in the transparency log with UUID 108e9186e8c5677a663e8ba0517011add39918fd3745e6dbc86c300ebb7ce6d21e8adf009a3e0225
+npm error A complete log of this run can be found in: /home/runner/.npm/_logs/2026-11-03T16_24_16_182Z-debug-0.log
