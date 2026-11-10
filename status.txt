@@ -1,18 +1,18 @@
-run: 2026-11-09T22:38:45Z
-version: 1.20261109.2238
+run: 2026-11-10T00:22:09Z
+version: 1.20261110.22
 exit: 0
 npm notice name: amozz10-market-prices
-npm notice version: 1.20261109.2238
-npm notice filename: amozz10-market-prices-1.20261109.2238.tgz
+npm notice version: 1.20261110.22
+npm notice filename: amozz10-market-prices-1.20261110.22.tgz
 npm notice package size: 2.1 kB
 npm notice unpacked size: 9.9 kB
-npm notice shasum: 7b5e6f3700a49d30f0bbc2e4b78c67abbc76fbd5
-npm notice integrity: sha512-h/iaaU6uKgH/S[...]E4LVNnGjmuK/w==
+npm notice shasum: b8a587f0c8677c7a6c4e714d4c03039161b9bcff
+npm notice integrity: sha512-NSwYfxlP9LMxs[...]6gy7sXATR+isA==
 npm notice total files: 4
 npm notice
 npm notice npm tokens that bypass 2FA are being restricted for account changes and direct publishing. Learn how to prepare: https://gh.io/npm-gat-bypass2fa-deprecation
 npm notice Publishing to https://registry.npmjs.org/ with tag latest and public access
 npm notice publish Signed provenance statement with source and build information from GitHub Actions
-npm notice publish Provenance statement published to transparency log: https://search.sigstore.dev/?logIndex=3771650494
+npm notice publish Provenance statement published to transparency log: https://search.sigstore.dev/?logIndex=3773426762
 npm notice Your package is being processed and may take a few minutes to become available.
-+ amozz10-market-prices@1.20261109.2238
++ amozz10-market-prices@1.20261110.22
