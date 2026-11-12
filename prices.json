@@ -1,10 +1,10 @@
 {
- "fetchedAt": "2026-11-12T20:18:48+00:00",
+ "fetchedAt": "2026-11-12T22:24:06+00:00",
  "quotes": {
   "ES0113900J37": {
-   "price": 11.126,
+   "price": 11.122,
    "date": "2026-11-12",
-   "at": "2026-11-12T18:06:34.660+00:00",
+   "at": "2026-11-12T20:38:35.850+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Santander"
@@ -34,9 +34,9 @@
    "name": "Vanguard FTSE All-World UCITS ETF USD Dis."
   },
   "IE00B3WJKG14": {
-   "price": 43.61,
+   "price": 43.52,
    "date": "2026-11-12",
-   "at": "2026-11-12T19:56:49.890+00:00",
+   "at": "2026-11-12T20:43:17.340+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD Acc."
@@ -50,9 +50,9 @@
    "name": "Vanguard S&P 500 UCITS ETF USD Dis."
   },
   "IE00B4L5Y983": {
-   "price": 131.155,
+   "price": 131.035,
    "date": "2026-11-12",
-   "at": "2026-11-12T19:50:55.010+00:00",
+   "at": "2026-11-12T20:40:23.760+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core MSCI World UCITS ETF USD Acc."
@@ -66,25 +66,25 @@
    "name": "iShares Core S&P 500 UCITS ETF USD Acc."
   },
   "IE00BFMXXD54": {
-   "price": 133.66,
+   "price": 132.945,
    "date": "2026-11-12",
-   "at": "2026-11-12T16:37:27.440+00:00",
+   "at": "2026-11-12T20:44:14.470+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard S&P 500 UCITS ETF USD Acc."
   },
   "IE00BK5BQT80": {
-   "price": 170.92,
+   "price": 170.6,
    "date": "2026-11-12",
-   "at": "2026-11-12T19:44:29.060+00:00",
+   "at": "2026-11-12T20:34:09.990+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Acc."
   },
   "IE00BKM4GZ66": {
-   "price": 45.37,
+   "price": 45.311,
    "date": "2026-11-12",
-   "at": "2026-11-12T19:50:35.890+00:00",
+   "at": "2026-11-12T20:37:24.950+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF USD Acc."
@@ -122,58 +122,58 @@
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.15557,
+   "price": 0.156675,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:47+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 64608.84,
+   "price": 64593.15,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:47+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.059475,
+   "price": 0.059915,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:48+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 1821.73,
+   "price": 1818.81,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:47+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 9.05708,
+   "price": 9.106625,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:48+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 45.064,
+   "price": 45.2855,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:48+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 73.64,
+   "price": 73.56,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:47+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 0.93105,
+   "price": 0.9363,
    "date": "2026-11-12",
-   "at": "2026-11-12T20:18:47+00:00",
+   "at": "2026-11-12T22:24:06+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
