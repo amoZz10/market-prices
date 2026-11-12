@@ -1,179 +1,179 @@
 {
- "fetchedAt": "2026-11-11T22:55:37+00:00",
+ "fetchedAt": "2026-11-12T16:56:37+00:00",
  "quotes": {
   "ES0113900J37": {
-   "price": 11.318,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:41:30.770+00:00",
+   "price": 11.076,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:52.680+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Santander"
   },
   "ES0144580Y14": {
-   "price": 23.17,
-   "date": "2026-11-11",
-   "at": "2026-11-11T16:35:30.250+00:00",
+   "price": 23.5,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:57.310+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Iberdrola"
   },
   "ES0148396007": {
-   "price": 59.98,
-   "date": "2026-11-11",
-   "at": "2026-11-11T16:35:56.560+00:00",
+   "price": 59.72,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:53.730+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Inditex"
   },
   "IE00B3RBWM25": {
-   "price": 165.4,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:04:31.600+00:00",
+   "price": 165.54,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:36:14.610+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Dis."
   },
   "IE00B3WJKG14": {
-   "price": 43.775,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:36:16.970+00:00",
+   "price": 43.87,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:53.200+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares S&P 500 Information Technology Sector UCITS ETF USD Acc."
   },
   "IE00B3XXRP09": {
-   "price": 130.34,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:15:44.500+00:00",
+   "price": 130.86,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:36:12.930+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard S&P 500 UCITS ETF USD Dis."
   },
   "IE00B4L5Y983": {
-   "price": 131.175,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:36:25.480+00:00",
+   "price": 131.61,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:40:08.870+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core MSCI World UCITS ETF USD Acc."
   },
   "IE00B5BMR087": {
-   "price": 742.78,
-   "date": "2026-11-11",
-   "at": "2026-11-11T19:52:40.260+00:00",
+   "price": 745.26,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:39:36.180+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core S&P 500 UCITS ETF USD Acc."
   },
   "IE00BFMXXD54": {
-   "price": 133.11,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:06:35.830+00:00",
+   "price": 133.66,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:37:27.440+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard S&P 500 UCITS ETF USD Acc."
   },
   "IE00BK5BQT80": {
-   "price": 171.02,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:43:56.440+00:00",
+   "price": 171.52,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:36:19.960+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Acc."
   },
   "IE00BKM4GZ66": {
-   "price": 45.998,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:14:10.350+00:00",
+   "price": 45.507,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:36:59.000+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF USD Acc."
   },
   "LU0411078552": {
-   "price": 316.6,
-   "date": "2026-11-11",
-   "at": "2026-11-11T16:35:51.290+00:00",
+   "price": 319.45,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:36:12.060+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Xtrackers S&P 500 2x Leveraged Daily Swap UCITS ETF 1C USD Acc."
   },
   "NL0010273215": {
-   "price": 1390.0,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:30:56.630+00:00",
+   "price": 1377.8,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:47.900+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "ASML Holding"
   },
   "US0378331005": {
-   "price": 319.9,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:22:09.060+00:00",
+   "price": 323.55,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:38:53.290+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Apple"
   },
   "US5949181045": {
-   "price": 468.15,
-   "date": "2026-11-11",
-   "at": "2026-11-11T20:17:05.090+00:00",
+   "price": 477.95,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:35:52.440+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.157005,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 0.15422,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 66613.405,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 64941.295,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.06077,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:37+00:00",
+   "price": 0.059385,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:37+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 1854.185,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 1816.185,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 9.180625,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 9.042755,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:37+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 45.169,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 44.634,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 75.18,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 73.68,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 0.9506,
-   "date": "2026-11-11",
-   "at": "2026-11-11T22:55:36+00:00",
+   "price": 0.9267,
+   "date": "2026-11-12",
+   "at": "2026-11-12T16:56:36+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
