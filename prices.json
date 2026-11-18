@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-18T20:50:06+00:00",
+ "fetchedAt": "2026-11-18T23:01:25+00:00",
  "quotes": {
   "ES0113900J37": {
    "price": 10.638,
@@ -74,9 +74,9 @@
    "name": "Vanguard S&P 500 UCITS ETF USD Acc."
   },
   "IE00BK5BQT80": {
-   "price": 165.78,
+   "price": 165.4,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:17:40.360+00:00",
+   "at": "2026-11-18T20:36:04.420+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Vanguard FTSE All-World UCITS ETF USD Acc."
@@ -106,9 +106,9 @@
    "name": "ASML Holding"
   },
   "US0378331005": {
-   "price": 321.8,
+   "price": 321.4,
    "date": "2026-11-18",
-   "at": "2026-11-18T19:15:09.110+00:00",
+   "at": "2026-11-18T20:55:04.570+00:00",
    "currency": "EUR",
    "source": "onvista · Xetra",
    "name": "Apple"
@@ -122,58 +122,58 @@
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.137485,
+   "price": 0.13593,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 56878.115,
+   "price": 56779.82,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.05336,
+   "price": 0.05284,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:25+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 1592.27,
+   "price": 1601.46,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 8.21378,
+   "price": 8.160295,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:25+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 39.817,
+   "price": 39.5555,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 66.38,
+   "price": 66.165,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 0.87935,
+   "price": 0.8735,
    "date": "2026-11-18",
-   "at": "2026-11-18T20:50:06+00:00",
+   "at": "2026-11-18T23:01:24+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
