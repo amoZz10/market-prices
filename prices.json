@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-11-24T00:15:23+00:00",
+ "fetchedAt": "2026-11-24T02:59:40+00:00",
  "quotes": {
   "ES0113900J37": {
    "price": 10.56,
@@ -122,58 +122,58 @@
    "name": "Microsoft"
   },
   "ada": {
-   "price": 0.136015,
+   "price": 0.135155,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "btc": {
-   "price": 56100.155,
+   "price": 55063.91,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "doge": {
-   "price": 0.05164,
+   "price": 0.05138,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:23+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "eth": {
-   "price": 1565.04,
+   "price": 1545.96,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "link": {
-   "price": 8.24691,
+   "price": 8.23682,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:23+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "ltc": {
-   "price": 38.008,
+   "price": 37.578,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "sol": {
-   "price": 65.9,
+   "price": 65.015,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   },
   "xrp": {
-   "price": 0.861,
+   "price": 0.86265,
    "date": "2026-11-24",
-   "at": "2026-11-24T00:15:22+00:00",
+   "at": "2026-11-24T02:59:40+00:00",
    "currency": "EUR",
    "source": "Coinbase spot price"
   }
